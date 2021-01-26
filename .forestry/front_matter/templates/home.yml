@@ -13,5 +13,18 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: email
+  type: select
+  default: ''
+  config:
+    required: true
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Email
+  description: Email
 pages:
 - portfolio/index.md
